@@ -63,8 +63,8 @@ email = os.getenv("reulandmax13@gmail.com")         # Email to send recommendati
 # ---------------------------------------------------
 
 # Load environment variables and login to kickbase
-USERNAME = os.getenv("KICK_USER") # DO NOT CHANGE THIS, YOU MUST SET THOSE IN GITHUB SECRETS OR A .env FILE
-PASSWORD = os.getenv("KICK_PASS") # DO NOT CHANGE THIS, YOU MUST SET THOSE IN GITHUB SECRETS OR A .env FILE
+USERNAME = os.getenv("Marul") # DO NOT CHANGE THIS, YOU MUST SET THOSE IN GITHUB SECRETS OR A .env FILE
+PASSWORD = os.getenv("miamax") # DO NOT CHANGE THIS, YOU MUST SET THOSE IN GITHUB SECRETS OR A .env FILE
 token = login(USERNAME, PASSWORD)
 print("\nLogged in to Kickbase.")
 
