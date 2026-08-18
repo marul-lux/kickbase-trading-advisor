@@ -58,7 +58,7 @@ competition_ids = [1]                   # 1 = Bundesliga, 2 = 2. Bundesliga, 3 =
 league_name = "Die Expertenrunde"  # Name of your league, must be exact match, can be done via env or hardcoded
 start_budget = 50_000_000               # Starting budget of your league, used to calculate current budgets of other managers
 league_start_date = "2025-08-16"        # Start date of your league, used to filter activities, format: YYYY-MM-DD
-email = os.getenv("reulandmax13@gmail.com")         # Email to send recommendations to, can be the same as EMAIL_USER or different
+email = os.getenv("EMAIL_USER")         # Email to send recommendations to, can be the same as EMAIL_USER or different
 
 # ---------------------------------------------------
 
